@@ -10,9 +10,40 @@ body{
 main{
     width: 50%;
     margin: 0 auto;
-    background-color: azure;
+    background-color: rgb(87, 88, 88);
 }
 h1{
     text-align: center;
     
+}
+.input-container{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.input-container input{
+    background-color: inherit;
+    color: black;
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    
+}
+.input-container button{
+    outline: none;
+    border: none;
+    width: 20%;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
