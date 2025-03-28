@@ -16,3 +16,9 @@ button.addEventListener("click", ()=>{
     }
     inputElem.value = "";
 })
+
+output.addEventListener("click", (e)=> {
+    if(e.target.tagName === "LI"){
+        e.target.classL.toggle("check")
+    }
+})
