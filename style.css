@@ -79,3 +79,11 @@ li::before{
     height: 20px;
     width: 20px;   
 }
+
+ul li check{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+ul li check::before{
+    background-image: url(check.png);
+}
