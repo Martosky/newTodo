@@ -10,7 +10,8 @@ body{
 main{
     width: 50%;
     margin: 0 auto;
-    background-color: rgb(87, 88, 88);
+    padding: 20px;
+    background-color: rgb(288, 242, 179);
 }
 h1{
     text-align: center;
@@ -46,4 +47,33 @@ h1{
     text-align: center;
     background-color: black;
     color: white;
+}
+.input-container button:hover{
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+}
+.output-container{
+    background-color: red;
+    margin: 20px;
+
+}
+ul{
+    position: relative;
+}
+ul li{
+    list-style-type: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+li::before{
+    content: "";
+    position: absolute;
+    background-image: url(unchecked.png);
+    height: 20px;
+    width: 20px;
+    left: 8;
+    top: 8;
+    
 }
