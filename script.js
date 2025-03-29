@@ -19,6 +19,7 @@ button.addEventListener("click", ()=>{
 
 output.addEventListener("click", (e)=> {
     if(e.target.tagName === "LI"){
-        e.target.classL.toggle("check")
-    }
+        e.target.classList.toggle("check")
+    }else if (e.target.tagName === "SPAN"){
+        e.target.parentElement.remove()    }
 })
